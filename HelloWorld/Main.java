@@ -4,6 +4,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello Nathalia");
+    	if(args.length>0)
+    		System.out.println("Hello " + args[0] + "!!!");
+    	else
+    		System.out.println("There's nobody");
     }
 }
